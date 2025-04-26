@@ -17,31 +17,15 @@ public class Location {
         this.y = y;
 
     }
-
-    public int getX() {
-        return x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
     public List<Animal> getAnimals() {
         return animals;
     }
-
-    public List<Plant> getPlants() {
-        return plants;
-    }
-
     public void addAnimal(Animal animal) {
         animals.add(animal);
     }
-
     public void removeAnimal(Animal animal) {
         animals.remove(animal);
     }
-
     private Plant grass;
 
     public void setGrass(Plant grass) {
